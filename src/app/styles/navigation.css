@@ -1,0 +1,126 @@
+.fullHeader {
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
+	max-width: 1366px;
+	top: 0;
+}
+
+.firstHeader {
+	display: flex;
+	background-color: #3d3d3d;
+	height: 108px;
+	align-items: center;
+}
+
+.firstHeader_Image {
+	margin-left: 24px;
+	width: 141px;
+	height: 39px;
+}
+
+.firstHeader_Text {
+	color: white;
+}
+
+.secondHeader {
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	height: 66px;
+}
+
+.secondHeader_Image {
+	margin-left: 27px;
+}
+
+.secondHeader_Text {
+	margin: auto 10px;
+	font-weight: 600;
+	color: #8556aa;
+}
+
+.secondHeader_Polygon {
+	height: 6px;
+}
+.pageList {
+	display: flex;
+}
+.pageList_item {
+	margin-left: 10px;
+	font-weight: 500;
+	color: #6a6a6a;
+}
+
+.secondHeader_DivLeft {
+	display: flex;
+	margin: auto 0;
+	align-items: center;
+}
+
+.secondHeader_DivRight {
+	display: flex;
+	margin-right: 30px;
+	align-items: center;
+}
+
+.verticalBar {
+	width: 2px;
+	height: 58px;
+	margin: 0 5px 0 30px;
+	background-color: #e2e2e2;
+}
+
+.userLogo {
+	display: flex;
+	align-items: center;
+}
+
+.userLogo_logo {
+	border-radius: 100%;
+	background-color: #8556aa;
+	color: white;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 11px;
+}
+
+.thirdHeader {
+	display: flex;
+	margin: auto 0;
+	justify-content: center;
+	background-color: #8556aa;
+}
+
+.card {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	border-radius: 10px;
+	width: 200px;
+	margin: 0 10px;
+}
+
+.card_icon {
+	margin-right: 10px;
+}
+
+.card_content {
+	flex: 1;
+}
+
+.card_title {
+	font-size: 16px;
+	color: white;
+	margin: 0;
+}
+
+.card_subtitle {
+	font-size: 14px;
+	font-weight: 200;
+	color: white;
+	margin: 0;
+}

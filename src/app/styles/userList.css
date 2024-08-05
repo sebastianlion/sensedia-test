@@ -1,0 +1,36 @@
+.searchInput {
+	width: 100%;
+	padding: 10px;
+	border-bottom: 1px solid #9e9e9e;
+	border-radius: 4px 4px 0 0;
+	background-color: #f4f4f4;
+	color: #6a6a6a;
+	margin-bottom: 20px;
+}
+
+.listContainer table {
+	width: 100%;
+}
+
+.tableHeader {
+	font-size: 12px;
+	padding: 30px 0;
+	border-top: 1px solid #6a6a6a;
+	border-bottom: 1px solid #6a6a6a;
+	color: #6a6a6a;
+}
+
+.tableBody td {
+	font-size: 16px;
+	padding: 20px 0;
+	border-bottom: 1px solid #6a6a6a;
+	color: #6a6a6a;
+}
+
+.tableBody_button {
+	opacity: 0;
+}
+
+.tableBody:hover .tableBody_button {
+	opacity: 1;
+}
